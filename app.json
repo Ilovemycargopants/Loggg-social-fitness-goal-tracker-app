@@ -4,7 +4,24 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "logs",
-    "slug": "logs"
+    "name": "Logs",
+    "slug": "Logsapp",
+    "version": "1.0.7",
+    "icon": "./assets/iconVersion1.png",
+    "extra": {
+      "eas": {
+        "projectId": "415cffe9-9286-46e1-84e7-4525ab9ea11e"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.moneyspread.Logs",
+
+      "infoPlist": {
+        "NSCameraUsageDescription":  "LOGGG uses your camera to allow you to take photos directly within the app and attach them to your logs.",
+        "NSPhotoLibraryUsageDescription": "LOGGG uses your photo library to let you pick images to upload as part of your logs.",
+        "NSFaceIDUsageDescription" : "LOGGG uses Face ID for quick and secure sign in."
+      }
+    }
+    
   }
 }
